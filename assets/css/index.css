@@ -1,0 +1,59 @@
+/*****  Backgrounds  *****/
+/* 14-The Dementor: */
+.dementor {
+    background: -webkit-linear-gradient(top, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.25) 200%);
+    background-blend-mode: multiply; 
+}
+
+ /* 26-Silver Stone: 
+ .silverStone {
+    background: #989898;
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), -webkit-radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%);
+    background-blend-mode: multiply,multiply; }
+  */
+
+   /* 47-Cosmos: 
+   .cosmos {
+    background-color: #797572;
+    background-image: -webkit-linear-gradient(263deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), -webkit-linear-gradient(18deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), -webkit-radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
+    background-image: linear-gradient(-173deg, rgba(255, 255, 255, 0.2) 0%, #000000 100%), linear-gradient(72deg, rgba(255, 255, 255, 0.25) 25%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(47% 102%, rgba(255, 255, 255, 0.5) 0%, rgba(21, 24, 32, 0.6) 120%);
+    background-blend-mode: multiply; }
+  */
+
+/*****  NavBar  *****/
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.navbar-default {
+    width: 100%;
+    height: 100px;
+
+}
+.custom-carets .dropdown-toggle:after {
+    font-family: FontAwesome;
+    content: '\f107';
+}
+
+.custom-carets .dropdown-toggle > span.caret {
+    display:none;
+}
+
+
+/*****  Licenses  *****/
+
+/*
+* Background Credits:
+* Based on the original PNG/Sketch gradients by Vladimir Kudinov
+* https://www.behance.net/gallery/30067997/Hue-Free-Promo-Backdrops-and-Gradients
+*
+* CSS Prototype using CSS3 background-blend modes by More than Themes
+* http://www.morethanthemes.com
+*
+* Version - 1.0.0
+* Licensed under the MIT license - http://opensource.org/licenses/MIT
+*/
